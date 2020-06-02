@@ -3,10 +3,8 @@ import { Component, Input} from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-    <p>
-      square works!
-    </p>
-  `,
+    <div> {{ value }} </div>
+        `,
   styles: [
   ]
 })
